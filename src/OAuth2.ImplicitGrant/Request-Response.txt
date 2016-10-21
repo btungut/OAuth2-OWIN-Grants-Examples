@@ -1,0 +1,6 @@
+﻿REQUEST:
+http://localhost:20002/authorize?response_type=token&client_id=123&redirect_uri=http://localhost:20002/api/default/AccessTokenCallback
+RESPONSE:
+Your token type is = 'bearer' and 
+access token is : 'KUQegjy5p2drB6OHvQrNIe1JVIbwLn1dwOkuwmWIjkkRcV5FqbTn9S71o3KOiML7Y9OE1TuxFiNv4fUcjeFPJd0xZR32E4V9yEbb7u-5lQThME3n40fwua7d8ifFWj8z37lni7JhtAozY3QOxlIMjzBIOTlldF2znE43nEPcLm0JMtC7INoq_-ob-xZIEVxrC8oOLBIV8QENcKEGSLyOMuS3VCRa8fdBJXSzE_OFrvk' and 
+it will be expired in 600 seconds.

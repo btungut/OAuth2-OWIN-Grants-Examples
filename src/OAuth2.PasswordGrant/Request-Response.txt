@@ -1,0 +1,16 @@
+﻿REQUEST:
+POST /token HTTP/1.1
+Host: localhost:20006
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+Cache-Control: no-cache
+Postman-Token: d4e1197e-e4ba-a706-19db-40664b154799
+
+grant_type=password&client_id=123&client_secret=mysecret&username=myusername&password=mypassword
+
+RESPONSE:
+{
+  "access_token": "YTNEaUqPMJosIGirHsaHFHSQ22FFPDAvNV7iK8-6NjdZncn7xmeHAdE4bRtDyzsb7sKxs4LMkaOOvxTsWoKktsT7FTvSJ3_gcc72n8nqUEG-oQ99wzx1nCpCBw0g4QLNd0ohU2Y8d2wDJXkYfmTlBIVlSsAYRNigEUmTvNyfFhuPK8R44Nmt_IJJSZqg7wpLY4ccbvitn78ZCceoa08Z_hZAEdz24uk3FwOMvC0USfA",
+  "token_type": "bearer",
+  "expires_in": 599
+}

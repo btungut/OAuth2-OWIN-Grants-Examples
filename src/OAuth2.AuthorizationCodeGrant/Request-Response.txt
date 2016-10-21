@@ -1,0 +1,22 @@
+﻿REQUEST:
+http://localhost:20001/authorize?response_type=code&client_id=123&scope=myscope&state=mystate&redirect_uri=http://localhost:20001/api/default/AuthorizeCallback
+RESPONSE:
+Your state is = 'mystate' and authorize code is : 'ddd7ca6dde4c4348bf61cd4139f879d8631858e279974b47848fbd6b8cf2136c'
+
+
+REQUEST:
+POST /token HTTP/1.1
+Host: localhost:20001
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+Cache-Control: no-cache
+Postman-Token: de7db74e-7ba5-ef11-0e4b-24accda775ad
+
+grant_type=authorization_code&client_id=123&client_secret=mysecret&code=ddd7ca6dde4c4348bf61cd4139f879d8631858e279974b47848fbd6b8cf2136c&redirect_uri=http%3A%2F%2Flocalhost%3A20001%2Fapi%2Fdefault%2FAuthorizeCallback
+
+RESPONSE:
+{
+  "access_token": "caJNbVtQgPXtZPEVfejO7T-TJ5TNnBXBPqfrc5xFqGrLh8iZllQoo5BzZU7-xyhJk1euf4oXPl0GuRc8VACGMeQvfFmqhTvQ57vosbDz5BqjrTPNMvI-E-Anv-3INtP198l2BxG13Ct9HwVbqA_ZjktU3NpVnvmxUXZI2upi3hnlBC8v_e8xIT752A0Iel7arN-4tdwRBOT1ldZNhgH2-Z55zQXFMenCDhdj3dYgKCc",
+  "token_type": "bearer",
+  "expires_in": 599
+}

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth2.AuthorizationCodeGrant", "OAuth2.AuthorizationCodeGrant\OAuth2.AuthorizationCodeGrant.csproj", "{FB225CED-810C-43A6-AA35-A25FFBE2F13F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Real Life Examples", "Real Life Examples", "{A3BD244D-0707-435F-98DE-6D9D09E5BD30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth2.TwitterClient", "OAuth2.TwitterClient\OAuth2.TwitterClient.csproj", "{BF037F0F-24E4-4A82-AF14-7C5185B736CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth2.PasswordGrant", "OAuth2.PasswordGrant\OAuth2.PasswordGrant.csproj", "{6CEBDB76-B29E-431F-9CFF-A62A3C06EE72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth2.ClientCredentialsGrant", "OAuth2.ClientCredentialsGrant\OAuth2.ClientCredentialsGrant.csproj", "{8A841C6A-DBD4-485B-952F-1C2DD2025495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth2.ImplicitGrant", "OAuth2.ImplicitGrant\OAuth2.ImplicitGrant.csproj", "{A85543E4-F70C-4B40-BB24-F07CB80680A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB225CED-810C-43A6-AA35-A25FFBE2F13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB225CED-810C-43A6-AA35-A25FFBE2F13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB225CED-810C-43A6-AA35-A25FFBE2F13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB225CED-810C-43A6-AA35-A25FFBE2F13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF037F0F-24E4-4A82-AF14-7C5185B736CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF037F0F-24E4-4A82-AF14-7C5185B736CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF037F0F-24E4-4A82-AF14-7C5185B736CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF037F0F-24E4-4A82-AF14-7C5185B736CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEBDB76-B29E-431F-9CFF-A62A3C06EE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEBDB76-B29E-431F-9CFF-A62A3C06EE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEBDB76-B29E-431F-9CFF-A62A3C06EE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEBDB76-B29E-431F-9CFF-A62A3C06EE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A841C6A-DBD4-485B-952F-1C2DD2025495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A841C6A-DBD4-485B-952F-1C2DD2025495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A841C6A-DBD4-485B-952F-1C2DD2025495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A841C6A-DBD4-485B-952F-1C2DD2025495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85543E4-F70C-4B40-BB24-F07CB80680A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85543E4-F70C-4B40-BB24-F07CB80680A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85543E4-F70C-4B40-BB24-F07CB80680A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85543E4-F70C-4B40-BB24-F07CB80680A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF037F0F-24E4-4A82-AF14-7C5185B736CF} = {A3BD244D-0707-435F-98DE-6D9D09E5BD30}
+	EndGlobalSection
+EndGlobal

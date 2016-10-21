@@ -1,0 +1,16 @@
+﻿REQUEST:
+POST /token HTTP/1.1
+Host: localhost:22521
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+Cache-Control: no-cache
+Postman-Token: c0a0417f-5dc4-a652-2bf8-c8d8d2ece139
+
+grant_type=client_credentials&client_id=123&client_secret=mysecret&scope=myscope
+
+RESPONSE:
+{
+  "access_token": "sWVC01y76ahWRXQNp_VnB4nCpmH71OfqHXy8CbQcLdOG1xSwA2KEnCiV3o3iFtvkpTePLHWXXCietvXScRDyjLcbvcn1WpAJRZiaZtixcIrsM-g_fi18ZHjun9PIOVY2qnJVy3Z9Reo4VVqlSaPpbyDR9fMqiPBt9Otm6v5o8KPdzlePiseG7_WV14FnCmZiOhFqgMhBhKYBdFBNQyTpS9HqNbN45ykotTFV__tdsis",
+  "token_type": "bearer",
+  "expires_in": 599
+}
